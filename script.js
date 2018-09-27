@@ -52,7 +52,7 @@ var color2 = document.querySelector(".color2"); //samedt
 var body = document.getElementById("gradient"); //this will be the var so that the bg gradient will be selected
 var random = document.getElementById("random"); //this will be the var for the random button
 
-function randomColor(){ //the addition of '000000' and the slice() at the end will ensure that you'll always get 6digits
+function randomColor(){ //the addition of '000000' and the slice() at the end will ensure that you'll always get 6 digits
 	return ('000000' + Math.floor(Math.random()*16777215).toString(16)).slice(-6);
 }
 
